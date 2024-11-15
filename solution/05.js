@@ -1,5 +1,7 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/12949
 
+// 행렬의 곱셈은 크기가 (M*N)인 행렬과 (N*P)인 행렬이 있을 때 곱의 결과는 (M*P)가 된다.
+// 첫 번째 행렬의 열의 개수와 두 번째 행렬의 행의 개수가 동일해야한다.
 function solution(arr1, arr2) {
   // ➊ 행렬 arr1과 arr2의 행과 열의 수
   const r1 = arr1.length;
