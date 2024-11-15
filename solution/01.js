@@ -1,4 +1,5 @@
 function solution(arr) {
+  // sort 메서드의 인자의 리턴값이 음수인 경우 a와 b의 자리를 바꾸지 않는다.
   arr.sort((a, b) => a - b);
   return arr;
 }
